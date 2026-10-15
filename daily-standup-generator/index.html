@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Standup Generator and Update Template | TaskHub</title>
+<meta name="description" content="Generate your daily standup from the tasks you already track: what you finished, what you are doing and what is blocked. Copy it into chat in one click.">
+<link rel="canonical" href="https://taskhub-beryl-kappa.vercel.app/daily-standup-generator/">
+
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0F2830">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TaskHub">
+<meta property="og:title" content="Daily Standup Generator and Update Template | TaskHub">
+<meta property="og:description" content="Generate your daily standup from the tasks you already track: what you finished, what you are doing and what is blocked. Copy it into chat in one click.">
+<meta property="og:url" content="https://taskhub-beryl-kappa.vercel.app/daily-standup-generator/">
+<meta property="og:image" content="https://taskhub-beryl-kappa.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Daily Standup Generator and Update Template | TaskHub">
+<meta name="twitter:description" content="Generate your daily standup from the tasks you already track: what you finished, what you are doing and what is blocked. Copy it into chat in one click.">
+<meta name="twitter:image" content="https://taskhub-beryl-kappa.vercel.app/og-image.png">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/site.css">
+<script type="application/ld+json">[{"@context":"https://schema.org","@type":"SoftwareApplication","name":"TaskHub","applicationCategory":"BusinessApplication","operatingSystem":"Web, Windows, macOS, Android, iOS","url":"https://taskhub-beryl-kappa.vercel.app/","description":"Generate your daily standup from the tasks you already track: what you finished, what you are doing and what is blocked. Copy it into chat in one click.","inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"TaskHub","item":"https://taskhub-beryl-kappa.vercel.app/"},{"@type":"ListItem","position":2,"name":"Standup generator","item":"https://taskhub-beryl-kappa.vercel.app/daily-standup-generator/"}]},{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Which tasks appear under Working on today?","acceptedAnswer":{"@type":"Answer","text":"Tasks due today and tasks marked In progress. A task with no date that is not In progress does not appear."}},{"@type":"Question","name":"What counts as yesterday?","acceptedAnswer":{"@type":"Answer","text":"Anything you completed since midnight at the start of yesterday."}},{"@type":"Question","name":"Can I edit the standup before sending it?","acceptedAnswer":{"@type":"Answer","text":"The copy goes to your clipboard as plain text, so you can paste it into chat and edit it there."}},{"@type":"Question","name":"Can a manager see everyone's standup?","acceptedAnswer":{"@type":"Answer","text":"The standup page shows teammates only through tasks they have assigned or shared. Private tasks never appear."}}]}]</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+ <a class="brand" href="/"><svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M9 3h14a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V9a6 6 0 0 1 6-6Zm10.7 8.3-5.2 6.3-2.6-2.5a1.4 1.4 0 0 0-2 2l3.7 3.5a1.4 1.4 0 0 0 2-.1l6.1-7.3a1.4 1.4 0 1 0-2-1.9Z"/></svg><span>TaskHub</span></a>
+ <nav aria-label="Main"><a href="/#features">Features</a><a href="/seo-task-templates/">SEO templates</a><a href="/daily-standup-generator/">Standup generator</a><a href="/ar/" hreflang="ar" lang="ar">العربية</a></nav>
+ <a class="btn" href="/app/">Open the app</a>
+</div></header>
+<main id="main">
+<div class="wrap"><nav class="crumbs" aria-label="Breadcrumb"><a href="/">TaskHub</a><span aria-hidden="true">/</span><span>Standup generator</span></nav></div>
+<section class="hero"><div class="wrap"><div class="hero-in"><h1>Generate your daily standup from the tasks you already track</h1><p class="lead">Skip the blank page. TaskHub reads your task list and writes the update for you.</p><div class="btns"><a class="btn big" href="/app/">Try it free</a></div></div></div></section>
+<section class="block"><div class="wrap"><h2>The three-part standup format</h2><p>Most teams use the same shape: what you finished, what you will do next, and what is stopping you. Here is a ready-to-paste example.</p>
+      <pre><code>Standup: Ali Khan, Tue, Oct 13
+Yesterday:
+- Rewrote category page titles [Bayut]
+- Sent sitemap fixes to dev [Zameen]
+Today:
+- Review hreflang tags [OLX]
+- Draft content brief [Content]
+Blockers:
+- Canonical fix (waiting on dev)</code></pre></div></section>
+<section class="block alt"><div class="wrap"><h2>How TaskHub builds it</h2><ul>
+      <li><b>Finished since yesterday</b> comes from tasks you completed.</li>
+      <li><b>Working on today</b> comes from tasks due today or marked In progress.</li>
+      <li><b>Waiting or overdue</b> comes from tasks marked Waiting and anything past its due date.</li></ul>
+      <p>Press <b>Copy my standup</b> and paste it into your team chat.</p></div></section>
+<section class="block"><div class="wrap"><h2>A weekly report from the same data</h2><p>The weekly report groups finished work by category, lists what is in progress, previews next week and adds tracked time if you use the timer.</p></div></section>
+<section class="block alt"><div class="wrap"><h2>Tips for updates people read</h2><ul>
+      <li>Write what changed, not a diary of everything you touched.</li>
+      <li>Name the blocker, who can remove it and by when.</li>
+      <li>Keep it short. Fifty to a hundred words is enough for most days.</li></ul></div></section>
+<section class="block"><div class="wrap"><h2>Private tasks stay private</h2><p>Your own standup can include your private tasks or leave them out with one checkbox. The team standup, which combines everyone, never includes a private task. Read more about <a href="/private-task-manager-for-teams/">how privacy works</a>.</p></div></section>
+<section class="block alt"><div class="wrap"><h2>Common questions</h2><h3>Which tasks appear under Working on today?</h3><p>Tasks due today and tasks marked In progress. A task with no date that is not In progress does not appear.</p><h3>What counts as yesterday?</h3><p>Anything you completed since midnight at the start of yesterday.</p><h3>Can I edit the standup before sending it?</h3><p>The copy goes to your clipboard as plain text, so you can paste it into chat and edit it there.</p><h3>Can a manager see everyone's standup?</h3><p>The standup page shows teammates only through tasks they have assigned or shared. Private tasks never appear.</p></div></section>
+<section class="block"><div class="wrap"><h2>Related</h2><ul class="links"><li><a href="/private-task-manager-for-teams/">How privacy works in a team task manager</a></li><li><a href="/task-manager-for-seo-teams/">A task manager for SEO teams</a></li><li><a href="/task-manager-with-reminders/">Task reminders and desktop alerts</a></li></ul></div></section>
+<section class="cta"><div class="wrap"><h2>Write tomorrow's standup in one click</h2><p>Free account, no setup beyond adding your tasks.</p><a class="btn big" href="/app/">Open the app</a></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+ <div class="cols"><div><b>TaskHub</b><p>A private task manager for teams. Free to use.</p></div>
+       <div><b>Product</b><a href="/">Home</a><a href="/app/">Open the app</a><a href="/private-task-manager-for-teams/">Private task manager</a><a href="/task-manager-with-reminders/">Reminders</a><a href="/task-manager-for-seo-teams/">For SEO teams</a><a href="/seo-task-templates/">SEO templates</a><a href="/daily-standup-generator/">Standup generator</a><a href="/clickup-companion-app/">ClickUp companion</a><a href="/arabic-task-manager/">Arabic support</a></div>
+       <div><b>Language</b><a href="/" hreflang="en">English</a><a href="/ar/" hreflang="ar" lang="ar">العربية</a></div></div>
+ <p class="legal">TaskHub is an independent product. Other product names mentioned belong to their owners, and TaskHub is not affiliated with or endorsed by them. © 2026 TaskHub</p>
+</div></footer>
+<script>try{var k=Object.keys(localStorage).some(function(x){return /^sb-.*-auth-token$/.test(x)});if(location.hash.indexOf('#join=')===0){location.replace('/app/'+location.hash)}else if(k&&location.pathname==='/'&&!location.search){location.replace('/app/')}}catch(e){}</script>
+</body>
+</html>
